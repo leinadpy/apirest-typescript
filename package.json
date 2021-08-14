@@ -1,11 +1,20 @@
 {
   "name": "apirest-typescript",
   "version": "1.0.0",
-  "description": "Example to practice",
+  "description": "A guide to REST API using Typescript created for Toptal blog",
   "main": "index.js",
   "scripts": {
+    "start": "tsc && node --unhandled-rejections=strict ./dist/app.js",
+    "debug": "SET DEBUG=* && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "REST",
+    "API",
+    "ExpressJS",
+    "NodeJS",
+    "Toptal"
+  ],
   "author": "Daniel Ojeda",
   "license": "ISC",
   "dependencies": {
